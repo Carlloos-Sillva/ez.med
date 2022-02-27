@@ -32,11 +32,15 @@
     width: 100%;
 }
 
+/* CSS para mobile */
+
 @media screen and (min-width: 768px) {
     .chamada__texto {
         max-width: 600px;
     }
 }
+
+/* CSS para tablet */
 
 @media screen and (min-width: 1024px) {
     .chamada {

@@ -35,6 +35,8 @@
     margin-left: .7rem;
 }
 
+/* CSS para mobile */
+
 @media screen and (min-width: 1024px) {
     .cabecalho {
         flex-direction: row;

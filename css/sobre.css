@@ -37,6 +37,8 @@
     display: none;
 }
 
+/* CSS para tablet */
+
 @media screen and (min-width: 1024px) {
     .sobre {
         display: flex;
