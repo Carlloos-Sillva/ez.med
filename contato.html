@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/chamada.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+    <header  class="cabecalho container">
+        <img src="img/logo.svg" alt="Logo Ez-Med" class="cabecalho__logo">
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__link"><a href="index.html">Home</a></li>
+                <li class="cabecalho__link"><a href="#">Planos</a></li>
+                <li class="cabecalho__link"><a href="#">Blog</a></li>
+                <li class="cabecalho__link"><a href="#">Destaques</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="chamada container">
+            <h1 class="chamada__titulo">Aplicativo Ez-Med</h1>
+            <p class="chamada__texto">Contatos para mais informaçoes</p>
+        </section>
+    </main>
+    <div>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com.br">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+
+        <table>
+            <tr>
+                <td>Dia</td>
+                <td>Horário</td>
+            </tr>
+            <tr>
+                <td>Segunda</td>
+                <td>8h ás 16h</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>8h ás 16h</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>8h ás 16h</td>
+            </tr>
+        </table>
+    </div>
+    <footer class="rodape container">
+        <img src="img/logo.svg" alt="Logo do Ez-Med" class="rodape__logo">
+        <ul class="rodape__social">
+            <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do twitter"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
+        </ul>
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__link"><a href="index.html">Home</a></li>
+                <li class="rodape__link"><a href="#">Sobre</a></li>
+                <li class="rodape__link"><a href="#">Planos</a></li>
+                <li class="rodape__link"><a href="#">Blog</a></li>
+                <li class="rodape__link"><a href="#">Destaques</a></li>
+                <li class="rodape__link"><a href="#">Institucional</a></li>
+                <li class="rodape__link"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>

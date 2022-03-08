@@ -1,5 +1,6 @@
 :root {
     --branco: #FFF;
+    --preto: #000000;
     --azul-claro: #DFE3E5;
     --vermelho-forte: #B72E2E;
     --cinza-escuro: #4F4C4C;
@@ -30,16 +31,11 @@ body {
 
 .botao {
     text-align: center;
-
     display: block;
-
     width: 100%;
     max-width: 350px;
-
     box-sizing: border-box;
-
     padding: 1rem 2rem;
-
     border: 1px solid var(--branco);
     border-radius: 5px;
 }

@@ -19,6 +19,8 @@
 
 .cabecalho__logo {
     margin-bottom: 1rem;
+    display: flex;
+    width: 25%;
 }
 
 .cabecalho__navegacao {
