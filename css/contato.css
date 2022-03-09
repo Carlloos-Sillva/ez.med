@@ -28,10 +28,8 @@
     margin-top: 1rem;
 }
 
+/*Formulario do css abaixo*/
 
-div {
-    padding: 3em 0;
-}
 form {
 	margin: 40px 0;
 }
@@ -39,18 +37,18 @@ form {
 form label, form legend, form select {
 	display:block;
 	font-size: 20px;
-	margin: 0 15px 18px;
+	margin: 0 40px 18px;
 }
 
 .input-padrao {
 	display: block;
-	margin: 0 15px 20px;
+	margin: 0 45px 20px;
 	padding: 10px 25px;
 	width: 50%;
 }
 
 .checkbox {
-	margin: 20px 0;
+	margin: 25px 0;
 }
 
 .enviar {
@@ -73,7 +71,7 @@ form label, form legend, form select {
 }
 
 table {
-	margin: 0 20px 40px;
+	margin: 0 45px 40px;
 	padding: 3em 0;
 	background: linear-gradient(#FEFEFE, #888888);
 }

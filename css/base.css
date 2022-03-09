@@ -38,6 +38,7 @@ body {
     padding: 1rem 2rem;
     border: 1px solid var(--branco);
     border-radius: 5px;
+    text-shadow: 45px 45px 45px var(--preto);
 }
 
 /* CSS para tablet */

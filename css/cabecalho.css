@@ -1,3 +1,4 @@
+/* Estrutura do cabecalho dentro da imagem do logo referente a parte escrita*/
 .cabecalho {
     color: var(--branco);
 
@@ -17,6 +18,7 @@
     position: absolute;
 }
 
+/* Estrutura para dimensionar logo referente para versoes de mobile */
 .cabecalho__logo {
     margin-bottom: 1rem;
     display: flex;

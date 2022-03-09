@@ -1,0 +1,21 @@
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+	.mapa-conteudo, .mapa {
+		width: auto;
+	}
+}

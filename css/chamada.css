@@ -19,12 +19,16 @@
     font-weight: 700;
     text-transform: uppercase;
 
+    text-shadow: 45px 45px 45px var(--preto);
+
     margin-bottom: 1.5rem;
 }
 
 .chamada__texto {
     font-size: 1.25rem;
     line-height: normal;
+    text-shadow: 45px 45px 45px var(--preto);
+    
 
     margin: 0 auto 2.5rem;
 }
@@ -45,7 +49,7 @@
 
 @media screen and (min-width: 1024px) {
     .chamada {
-        /* background-image: url(../img/bg-cabecalho.jpg); */
+        background-image: url(../img/bg-cabecalho.jpg);
 
         background-size: cover;
 

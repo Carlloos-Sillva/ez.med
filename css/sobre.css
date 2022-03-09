@@ -1,6 +1,7 @@
 .sobre {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    text-align: justify;
 }
 
 .sobre__titulo {

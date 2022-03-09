@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/chamada.css">
+    <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/rodape.css">
     <link rel="stylesheet" href="css/contato.css">
 </head>
@@ -20,21 +21,35 @@
             <ul>
                 <li class="cabecalho__link"><a href="index.html">Home</a></li>
                 <li class="cabecalho__link"><a href="#">Planos</a></li>
-                <li class="cabecalho__link"><a href="#">Blog</a></li>
-                <li class="cabecalho__link"><a href="#">Destaques</a></li>
+                <li class="cabecalho__link"><a href="parceiras.html">Lojas Parceiras</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="chamada container">
-            <h1 class="chamada__titulo">Aplicativo Ez-Med</h1>
-            <p class="chamada__texto">Contatos para mais informaçoes</p>
+            <h1 class="chamada__titulo">Contato</h1>
         </section>
-    </main>
+    </main> 
+    <section class="sobre container">
+        <div class="sobre__conteudo">
+            <h2 class="sobre__titulo">Contato</h2>
+            <p class="sobre__texto">Criamo aplicativo Ez-Med <strong class="sobre__texto--destaque"> para todas as pessoas</strong>!</p>
+            <p class="sobre__texto">
+                O seu feedback irá nos ajudar muito a aprimorar nossos produtos (ou serviços).
+                A sua opinião é muito importante para a Ez-Med. Por favor, entre em contato sempre que precisar.</p>
+            <p><strong class="sobre__texto--destaque">O atendimento possui padrão de excelência e agilidade, garantindo 
+                qualidade e satisfação dos nossos clientes</strong></p><br>
+            </p>
+            <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
+                Conte com uma equipe especializada.
+            </p>
+            <p class="sobre__texto">Para mais informaçoes</p>
+        </div>
+    </section>
     <div>
         <form>
-            <label for="nomesobrenome">Nome e sobrenome</label>
-            <input type="text" id="nomesobrenome" class="input-padrao" required>
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" class="input-padrao" required>
 
             <label for="email">Email</label>
             <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com.br">
@@ -67,6 +82,8 @@
 
             <input type="submit" value="Enviar formulário" class="enviar">
         </form>
+
+        <p class="chamada__texto"></p>Muito obrigado(a) por seu contato.</p><br>
 
         <table>
             <tr>
