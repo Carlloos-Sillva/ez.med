@@ -14,115 +14,115 @@
     <link rel="stylesheet" href="css/rodape.css">
     <link rel="stylesheet" href="css/contato.css">
 </head>
-<body>
-    <header  class="cabecalho container">
-        <img src="img/logo.svg" alt="Logo Ez-Med" class="cabecalho__logo">
-        <nav class="cabecalho__navegacao">
-            <ul>
-                <li class="cabecalho__link"><a href="index.html">Home</a></li>
-                <li class="cabecalho__link"><a href="#">Planos</a></li>
-                <li class="cabecalho__link"><a href="parceiras.html">Lojas Parceiras</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="chamada container">
-            <h1 class="chamada__titulo">Contato</h1>
+    <body>
+        <header  class="cabecalho container">
+            <img src="img/logo.svg" alt="Logo Ez-Med" class="cabecalho__logo">
+            <nav class="cabecalho__navegacao">
+                <ul>
+                    <li class="cabecalho__link"><a href="index.html">Home</a></li>
+                    <li class="cabecalho__link"><a href="#">Planos</a></li>
+                    <li class="cabecalho__link"><a href="parceiras.html">Lojas Parceiras</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="chamada container">
+                <h1 class="chamada__titulo">Contato</h1>
+            </section>
+        </main> 
+        <section class="sobre container">
+            <div class="sobre__conteudo">
+                <h2 class="sobre__titulo">Contato</h2>
+                <p class="sobre__texto">Criamo aplicativo Ez-Med <strong class="sobre__texto--destaque"> para todas as pessoas</strong>!</p>
+                <p class="sobre__texto">
+                    O seu feedback irá nos ajudar muito a aprimorar nossos produtos (ou serviços).
+                    A sua opinião é muito importante para a Ez-Med. Por favor, entre em contato sempre que precisar.</p>
+                <p><strong class="sobre__texto--destaque">O atendimento possui padrão de excelência e agilidade, garantindo 
+                    qualidade e satisfação dos nossos clientes</strong></p><br>
+                </p>
+                <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
+                    Conte com uma equipe especializada.
+                </p>
+                <p class="sobre__texto">Para mais informaçoes</p>
+            </div>
         </section>
-    </main> 
-    <section class="sobre container">
-        <div class="sobre__conteudo">
-            <h2 class="sobre__titulo">Contato</h2>
-            <p class="sobre__texto">Criamo aplicativo Ez-Med <strong class="sobre__texto--destaque"> para todas as pessoas</strong>!</p>
-            <p class="sobre__texto">
-                O seu feedback irá nos ajudar muito a aprimorar nossos produtos (ou serviços).
-                A sua opinião é muito importante para a Ez-Med. Por favor, entre em contato sempre que precisar.</p>
-            <p><strong class="sobre__texto--destaque">O atendimento possui padrão de excelência e agilidade, garantindo 
-                qualidade e satisfação dos nossos clientes</strong></p><br>
-            </p>
-            <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
-                Conte com uma equipe especializada.
-            </p>
-            <p class="sobre__texto">Para mais informaçoes</p>
+        <div class="destaques container">
+            <h2 class="destaques__titulo">Contatos para mais informações</h2>
+            <form class="pagina__contato container">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com.br">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+
+            <p class="chamada__texto container"></p>Horário de atendimento</p><br>
+
+            <table class="quadro__horario container">
+                <tr>
+                    <td>Dia</td>
+                    <td>Horário</td>
+                </tr>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ás 16h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h ás 16h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h ás 16h</td>
+                </tr>
+            </table>
         </div>
-    </section>
-    <div>
-        <form>
-            <label for="nome">Nome Completo</label>
-            <input type="text" id="nome" class="input-padrao" required>
-
-            <label for="email">Email</label>
-            <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com.br">
-
-            <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
-
-            <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-
-            <fieldset>
-                <legend>Como prefere o nosso contato?</legend>
-                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
-                
-                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
-                
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Qual horário prefere ser atendido?</legend>
-                <select>
-                    <option>Manhã</option>
-                    <option>Tarde</option>
-                    <option>Noite</option>
-                </select>
-            </fieldset>
-
-            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
-
-            <input type="submit" value="Enviar formulário" class="enviar">
-        </form>
-
-        <p class="chamada__texto"></p>Muito obrigado(a) por seu contato.</p><br>
-
-        <table>
-            <tr>
-                <td>Dia</td>
-                <td>Horário</td>
-            </tr>
-            <tr>
-                <td>Segunda</td>
-                <td>8h ás 16h</td>
-            </tr>
-            <tr>
-                <td>Quarta</td>
-                <td>8h ás 16h</td>
-            </tr>
-            <tr>
-                <td>Sexta</td>
-                <td>8h ás 16h</td>
-            </tr>
-        </table>
-    </div>
-    <footer class="rodape container">
-        <img src="img/logo.svg" alt="Logo do Ez-Med" class="rodape__logo">
-        <ul class="rodape__social">
-            <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
-            <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do twitter"></a></li>
-            <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
-        </ul>
-        <nav>
-            <ul class="rodape__navegacao">
-                <li class="rodape__link"><a href="index.html">Home</a></li>
-                <li class="rodape__link"><a href="#">Sobre</a></li>
-                <li class="rodape__link"><a href="#">Planos</a></li>
-                <li class="rodape__link"><a href="#">Blog</a></li>
-                <li class="rodape__link"><a href="#">Destaques</a></li>
-                <li class="rodape__link"><a href="#">Institucional</a></li>
-                <li class="rodape__link"><a href="contato.html">Contato</a></li>
+        <footer class="rodape container">
+            <img src="img/logo.svg" alt="Logo do Ez-Med" class="rodape__logo">
+            <ul class="rodape__social">
+                <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+                <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do twitter"></a></li>
+                <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
             </ul>
-        </nav>
-    </footer>
-    
-</body>
+            <nav>
+                <ul class="rodape__navegacao">
+                    <li class="rodape__link"><a href="index.html">Home</a></li>
+                    <li class="rodape__link"><a href="#">Sobre</a></li>
+                    <li class="rodape__link"><a href="#">Planos</a></li>
+                    <li class="rodape__link"><a href="#">Blog</a></li>
+                    <li class="rodape__link"><a href="#">Destaques</a></li>
+                    <li class="rodape__link"><a href="#">Institucional</a></li>
+                    <li class="rodape__link"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </footer> 
+    </body>
 </html>

@@ -39,7 +39,7 @@
 
 /* CSS para mobile */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 940px) {
     .chamada__texto {
         max-width: 600px;
     }
